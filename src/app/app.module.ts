@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
-
+import { MatDialogModule } from '@angular/material/dialog';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 
 
 @NgModule({
-  imports: [BrowserModule, FormsModule],
+  imports: [BrowserModule, FormsModule,MatDialogModule],
   declarations: [AppComponent, HelloComponent],
   bootstrap: [AppComponent],
 })
